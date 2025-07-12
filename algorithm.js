@@ -38,14 +38,14 @@ function displayTasks() {
         tasks.forEach(element => {
             const taskItem = `
             <tr>
-                    <td class="border p-[4px] w-[200px] whitespace-normal break-words">${element.task}</td>
-                    <td class="border p-[4px] text-center">${element.dueDate}</td>
-                    <td class="border p-[4px]">
+                    <td class="task-0 bg-gray-200 border p-[4px] w-[1000px] whitespace-normal break-words">${element.task}</td>
+                    <td class="duedate-0 bg-gray-200 border p-[4px] text-center">${element.dueDate}</td>
+                    <td class="status-0 bg-gray-200 border p-[4px]">
                         <button class="bg-green-500 text-white p-[4px] rounded" onclick="toggleTaskCompletion(${element.id})">
                             ${element.completed ? 'Undo' : 'Complete'}
                         </button>
                     </td>
-                    <td class="border p-[4px]">
+                    <td class="actions-0 bg-gray-200 border p-[4px]">
                         <button class="bg-red-500 text-white p-[4px] rounded" onclick="deleteTask(${element.id})">Delete</button>
                     </td>
             </tr>
@@ -55,7 +55,7 @@ function displayTasks() {
     } else {
         taskList.innerHTML = `
         <tr>
-            <td colspan="4" class="border p-[4px] text-center bg-gray-200">
+            <td colspan="4" class="empty-0 border p-[4px] text-center bg-gray-200">
                 Task is Empty!
             </td>
         </tr>

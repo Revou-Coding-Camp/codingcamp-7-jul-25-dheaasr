@@ -9,6 +9,51 @@ main {
     justify-self: center;
 }
 
-.title1 {
-    color:rgb(90, 8, 8)
+.title-tdl {
+    color: rgb(115, 35, 91);
+}
+
+.task-0 {
+    border: 2px solid rgb(101, 4, 105);
+    color:rgb(176, 67, 158);
+}
+
+.duedate-0 {
+    border: 2px solid rgb(101, 4, 105);
+    color:rgb(176, 67, 158);
+}
+
+.status-0 {
+    border: 2px solid rgb(101, 4, 105);
+    color:rgb(176, 67, 158);
+}
+
+.actions-0 {
+    border: 2px solid rgb(101, 4, 105);
+    color:rgb(176, 67, 158);
+}
+
+.empty-0 {
+    border: 2px solid rgb(101, 4, 105);
+    color:rgb(176, 67, 158);
+}
+
+.add-0 {
+    border: 2px solid rgb(101, 4, 105);
+    color:rgb(81, 61, 78);
+}
+
+.ddi-0 {
+    border: 2px solid rgb(101, 4, 105);
+    color:rgb(81, 61, 78);
+}
+
+.filter-0 {
+    border: 2px solid rgb(101, 4, 105);
+    color:rgb(81, 61, 78);
+}
+
+.del-0 {
+    border: 2px solid rgb(101, 4, 105);
+    color:rgb(81, 61, 78);
 }

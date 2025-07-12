@@ -17,7 +17,7 @@
     <main class="p-[25px] rounded">
         <!-- Hero Website -->
     <header>
-        <h1 class="title1 text-3xl font-bold">To-do List!</h1>
+        <h1 class="title-tdl title-tdl text-3xl font-bold">To-do List!</h1>
     </header>
 
         <main class="px-[20px] rounded">
@@ -25,8 +25,8 @@
             <!-- Todo Input -->
             <form class="flex justify-between p-[8px]">
                 <div class="flex gap-[12px]">
-                    <input type="text" id="task-input" class="border rounded p-[4px] bg-gray-200" placeholder="Add a new task">
-                    <input type="date" id="due-date-input" class="border rounded p-[4px] bg-gray-200" placeholder="Due date">
+                    <input type="text" id="task-input" class="add-0 border rounded p-[4px] bg-gray-200" placeholder="Add a new task">
+                    <input type="date" id="due-date-input" class="ddi-0 border rounded p-[4px] bg-gray-200" placeholder="Due date">
                 </div>
 
                 <button type="button" class="bg-blue-500 text-white p-[4px] rounded w-[50px]"
@@ -37,10 +37,10 @@
             <section class="flex justify-between p-[8px]">
                 <div class="flex gap-[8px]">
 
-                    <button class="bg-gray-100 p-[4px] rounded" onclick="filterTasks()">Filter</button>
+                    <button class="filter-0 bg-gray-100 p-[4px] rounded" onclick="filterTasks()">Filter</button>
                 </div>
 
-                <button class="bg-red-500 text-white p-[4px] rounded" onclick="deleteAllTasks();">Delete All</button>
+                <button class="del-0 bg-gray-100 p-[4px] rounded" onclick="deleteAllTasks();">Delete All</button>
             </section>
 
             <!-- Todo List -->
@@ -49,15 +49,15 @@
                 <table class="table-fixed w-full">
                     <thead>
                         <tr class="bg-gray-200">
-                            <th class="border p-[4px] text-center">Task</th>
-                            <th class="border p-[4px] text-center">Due Date</th>
-                            <th class="border p-[4px]text-center">Status</th>
-                            <th class="border p-[4px]text-center">Actions</th>
+                            <th class="task-0 border p-[4px] text-center">Task</th>
+                            <th class="duedate-0 border p-[4px] text-center">Due Date</th>
+                            <th class="status-0 border p-[4px]text-center">Status</th>
+                            <th class="actions-0 border p-[4px]text-center">Actions</th>
                         </tr>
                     </thead>
                     <tbody id="task-list">
                         <tr class="bg-gray-200">
-                            <td colspan="4" class="text-center p-[2px] border">Task is Empty!</td>
+                            <td colspan="4" class="empty-0 text-center p-[2px] border">Task is Empty!</td>
                         </tr>
                     </tbody>
                 </table>
